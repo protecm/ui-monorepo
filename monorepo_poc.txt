@@ -35,6 +35,7 @@ https://medium.com/@sibeeshvenu/having-a-docker-container-as-your-private-npm-re
 Refs:
 https://codeburst.io/build-your-own-react-component-library-with-lerna-and-storybook-53298b186760
 https://itnext.io/guide-react-app-monorepo-with-lerna-d932afb2e875
+https://jackcuthbert.dev/blog/managing-a-monorepo-with-lerna-typescript-react-jest/
 
 
 Steps:
