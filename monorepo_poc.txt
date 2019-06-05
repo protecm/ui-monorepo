@@ -1,0 +1,53 @@
+POC for NPM global Registry ($):
+
+Questions:
+CI-CD?
+
+Blocker:
+Create an account with X users
+https://www.npmjs.com/signup?next=/org/create
+
+
+POC:
+Create an NPM registry with 2 or more components that can be installed & used in different projects.
+The components should have an update version process (GIT) documanted (publish). 
+
+Steps:
+Choose scope name, e.g. @bidalgo-ui
+Set git mono-repo - e.g. bidalgo-ui with lerna (.gitginore - Node, devDependencies at the root level)
+Set npm org - e.g. bidalgo-ui
+Add 2 packages using lerna that includes 
+	- React component, Storybook, tests (run on pre-publish), README.md, access - private, git-repo: synced
+	
+Publish - semantic version - lerna does it for you...
+
+DOD:
+Components can be installed\used from an NPM registry in different projects.
+Components can be updated and published. 
+
+
+
+Docker POC (Verdaccio):
+https://medium.com/@sibeeshvenu/having-a-docker-container-as-your-private-npm-registry-the-easy-way-68159fa94cc4
+
+
+==========================================================
+Refs:
+https://codeburst.io/build-your-own-react-component-library-with-lerna-and-storybook-53298b186760
+https://itnext.io/guide-react-app-monorepo-with-lerna-d932afb2e875
+
+
+Steps:
+create git repo - ui-monorepo
+git clone https://github.com/protecm/ui-monorepo.git
+cd ui-monorepo
+
+create npmjs account - yriaznov\P1......!
+veirfy mail address
+npm creare org - "ui-monorepo"
+
+npx lerna init --independent
+npm i    (install lerna as dev Dependency)
+Redactor packages = components folder & update lerna.json
+
+npm i create-react-app --save-dev

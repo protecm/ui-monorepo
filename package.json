@@ -2,9 +2,10 @@
   "name": "ui-monorepo",
   "private": true,
   "scripts": {
-    "lerna" : "lerna"
+    "lerna": "lerna"
   },
   "devDependencies": {
+    "create-react-app": "^3.0.1",
     "lerna": "^3.14.1"
   }
 }
