@@ -36,6 +36,8 @@ Refs:
 https://codeburst.io/build-your-own-react-component-library-with-lerna-and-storybook-53298b186760
 https://itnext.io/guide-react-app-monorepo-with-lerna-d932afb2e875
 https://jackcuthbert.dev/blog/managing-a-monorepo-with-lerna-typescript-react-jest/
+https://michalzalecki.com/solve-code-sharing-and-setup-project-with-lerna-and-monorepo/
+https://www.nearform.com/blog/sharing-react-components-with-lerna/
 
 
 Steps:
@@ -52,3 +54,5 @@ npm i    (install lerna as dev Dependency)
 Redactor packages = components folder & update lerna.json
 
 npm i create-react-app --save-dev
+
+npm run lerna create @ui-monorepo/button
