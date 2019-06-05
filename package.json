@@ -3,9 +3,13 @@
   "private": true,
   "scripts": {
     "lerna": "lerna",
-    "create-react-app": "create-react-app"
+    "create-react-app": "create-react-app",
+    "storybook": "start-storybook"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@storybook/react": "^5.1.1",
+    "babel-loader": "^8.0.6",
     "create-react-app": "^3.0.1",
     "lerna": "^3.14.1"
   },
