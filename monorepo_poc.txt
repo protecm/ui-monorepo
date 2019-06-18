@@ -39,6 +39,7 @@ https://jackcuthbert.dev/blog/managing-a-monorepo-with-lerna-typescript-react-je
 https://michalzalecki.com/solve-code-sharing-and-setup-project-with-lerna-and-monorepo/
 https://www.nearform.com/blog/sharing-react-components-with-lerna/
 http://bradfrost.com/blog/post/atomic-web-design/
+https://flaviocopes.com/package-json/#repository
 
 Steps:
 create git repo - ui-monorepo
