@@ -40,6 +40,7 @@ https://michalzalecki.com/solve-code-sharing-and-setup-project-with-lerna-and-mo
 https://www.nearform.com/blog/sharing-react-components-with-lerna/
 http://bradfrost.com/blog/post/atomic-web-design/
 https://flaviocopes.com/package-json/#repository
+https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675
 
 Steps:
 create git repo - ui-monorepo
